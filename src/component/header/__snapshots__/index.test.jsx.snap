@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Case For header 1`] = `ShallowWrapper {}`;
+
+exports[`Test Case For header should render header 1`] = `ShallowWrapper {}`;

@@ -1,8 +1,9 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+const multiple = (a, b) => {
+  return a * b;
+}
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test("result test function perkalian", () => {
+  const perkalian = multiple(3, 2);
+  expect(perkalian).toBe(6);
 });
+
